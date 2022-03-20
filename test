@@ -1,0 +1,54 @@
+function calculator (str) {
+const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, I, II, III, IV, V, VI, VII, VIII, IX, X]; 
+const b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, I, II, III, IV, V, VI, VII, VIII, IX, X]; 
+} //оба операнда числа  от 1 до 10 Римские или Арабские
+var array = str.split(''); 
+var a = array [0];
+var sign = array [1];
+var b = arraay [2]; // прочитать стр и разбить на переменные и знаки
+  try {
+if (a==[A-Za-z] && b==[0-9]) throw Error;
+else if (a==[A-Za-z] && b==[A-Za-z]) throw Error;
+else if (a==[0-9] && b==[A-Za-z]) throw Error;
+else if (a==[0-9] && b==[I-X]) throw Error;
+else if (a==[I-X] && b==[0-9]) throw Error;
+else if (a==[I-X] && b==[A-Za-z]) throw Error;
+else if (a==[A-Za-z] && b==[I-X]) throw Error;
+}
+catch (error);// проверить оба числа на Римские\Арабские (регулярные выражения) показать Ошибку и завершить Работy 
+  static int sum (int a, int b) { 
+  throw Exception
+        return a + b;
+    }
+     static int sub (int a, int b) {
+        return a - b;
+        if (a - b < 0) return '';// вернётся пустая строка т.к. в римской системе нет отрицательных чисел. 
+    }
+    static int mul (int a, int b) {
+        return a * b;
+    }
+    static int del (int a, int b) {
+        return a / b; 
+    } //  операции сложения, вычитания, умножения и деления с двумя числами
+console.log(parseInt((a/b))); //приведение к цел.числу, будет отброшена дробная часть
+public static int convert (string a,b) {
+          if (a.equals('I')) return 1;
+          if (a.equals('II')) return 2;
+          if (a.equals('III')) return 3;
+          if (a.equals('IV')) return 4;
+          if (a.equals('V')) return 5;
+          if (a.equals('VI')) return 6;
+          if (a.equals('VII')) return 7;
+          if (a.equals('VIII')) return 8;
+          if (a.equals('IX')) return 9;
+          if (a.equals('X')) return 10
+          return 0;
+        } 
+      if (a < 1 || a > 10) {
+          throw new Error;
+          return;
+        }
+        if (b < 1 || b > 10) {
+          throw new Error;
+ return;
+ } // только целые числа, от 1 до 10
